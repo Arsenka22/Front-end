@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding:0;
     outline:0;
@@ -10,85 +10,31 @@
     font-weight: 400;
     font-size: 36px;
 }
-.info{
-    margin: 190px 505px 0px 505px;
-    width: 430px;
-    font:400 36px/1 "Roboto",sans-serif;
-    
-    
+
+.content {
+    width: 1280px;
+    height: 709px;
+    margin: 190px 80px 51.6px 80px;
 }
-.info2{
-    width:449px;
-    margin:1px 495px 69px 496px;
+
+.info, .info2 {
+    text-align: center;
     font:400 36px/1 "Roboto",sans-serif;
 }
-.features{
+
+.features {
     width: 1088px;
-    max-height:555px;
-    margin: 69px 80px 0px 164px;
-}
-.features__items{
-    display:inline-block;
-    width: 338.66px ;
-    height: 167.5px;
-    padding-left:158px;
+    height: 555px;
+    margin: 154px 108px 0px 84px;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    
     
 }
-.person{
-    width:1280px;
-    height:803.5px;
-    margin-left: 80px;
-    margin-right: 80px;
-    padding-right: 128px;
-    padding-left: 108px;
-}
-.person img{
-    width: 288px;
-    height: 351px;
-}
-.person__interview1{
-    width:705px;
-    height: 42px;
-    margin: 163px 367px 1px 180px;
-    font-weight:700;
-    font-size: 36px;
-}
-.person__interview2{
-    width:613px;
-    height: 42px;
-    margin: 0px 333px 102px 223px;
-    font-weight: 700;
-    font-size: 36px;
-}
-.person_photos{
-    width:1200px;
-    height: 616.5px;
-    margin: 102.33px 188px 51.5px 88px;
-}
-.person__one{
-    width:287.98px;
-    display: inline-block;
-  
-    text-align: center;
-    position: relative;
-    left:70px;
 
-}
-.person__two{
-    width:287.98px;
-    display: inline-block;
+.features__items {
+    width: 338.66px;
+    height: 167px;   
     
-    text-align: center;
-    position: relative;
-    left:100px
 }
-.person__three{
-    width:287.98px;
-    display: inline-block;
-   
-    left: 140px;
-    position: relative;
-
-
-}
-
