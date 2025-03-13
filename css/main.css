@@ -142,4 +142,15 @@
     font: 700 18px/1 "Roboto",sans-serif;
     color:black
 }
-
+ 
+.people::before {
+    content: "";
+    position: absolute;
+    top: 1400px;
+    left: 0;
+    width: 1440px;
+    height: 480px;
+    background-color: #F0F0F0;
+    z-index: -1;
+  }
+  
