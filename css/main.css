@@ -51,14 +51,18 @@
 
 .item__subtitle, .item__subtitle2 {
      padding-left: 35%;
-    font: 700 30px/1 "Roboto",sans-serif;
+     font: 700 30px/1 "Roboto",sans-serif;
 }
 
 #item__subtitle2_1, #item__subtitle2_2, #item__subtitle2_6 {
     padding-left: 45%;
     font: 700 30px/1 "Roboto",sans-serif;
-}
+} 
 
+#item__subtitle2_7 {
+    padding-left: 32%;
+    font: 700 30px/1 "Roboto",sans-serif;
+}
 .interviews__title, .interviews__title2 {
     font: 700 36px/1 "Roboto",sans-serif;
     text-align: center;
