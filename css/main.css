@@ -11,10 +11,16 @@
     font-size: 36px;
 }
 
+@font-face {
+    font-family:"Roboto";
+    src: url('../fonts/static/Roboto-Bold.ttf') format(ttf);
+    font-weight: 700;
+    font-size:30px;
+}
 .content {
     width: 1280px;
     height: 709px;
-    margin: 190px 80px 51.6px 80px;
+    margin: 190px 80px 52px 80px;
 }
 
 .info, .info2 {
@@ -25,16 +31,30 @@
 .features {
     width: 1088px;
     height: 555px;
-    margin: 154px 108px 0px 84px;
+    margin: 70px 108px 0px 84px;
     display: flex;
+    align-items: center;
     justify-content:space-between;
-    flex-wrap:wrap;
-    
-    
+    flex-wrap:wrap; 
 }
 
 .features__items {
-    width: 338.66px;
-    height: 167px;   
-    
+    width:338px;
+}
+
+.item__circle {
+    width: 70px;
+    height:70px;
+    margin-left: 47%;
+    margin-bottom: 26px;
+}
+
+.item__subtitle, .item__subtitle2{
+     padding-left:35%;
+    font:700 30px/1 "Roboto",sans-serif;
+}
+
+#item__subtitle21, #item__subtitle22, #item__subtitle26{
+    padding-left:45%;
+    font:700 30px/1 "Roboto",sans-serif;
 }
