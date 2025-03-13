@@ -78,6 +78,8 @@
     height:616.5px;
     display: flex;
     justify-content: space-between;
+    
+
 }
 
 .people__first {
@@ -85,6 +87,7 @@
     margin: 0px 100px 0px 100.02px;
     &:nth-child(2){
         margin-left:0px;
+        
     }
     &:last-child{
         margin-left: 0px;
@@ -109,14 +112,34 @@
     font:400 19px/1 "Roboto",sans-serif;
 }
 
+#people__name2{
+    margin:34px 63px 1px 62px;
+    font:400 19px/1 "Roboto",sans-serif;
+}
+
+#people__name3 {
+    margin:34px 67px 1px 67px;
+    font:400 19px/1 "Roboto",sans-serif;
+}
+
 .people__country {
     width:251px;
     margin:0px 18px 44px 18.98px;
     font:400 20px/1 "Roboto",sans-serif;
 }
 
+#people__country2 {
+    margin:2px 71px 44px 70px;
+    font:400 20px/1 "Roboto",sans-serif;
+}
+
+#people__country3 {
+    margin:1px 37px 44px 37px;
+    font:400 20px/1 "Roboto",sans-serif;
+}
 .people__link {
     margin: 0px 107px;
     font: 700 18px/1 "Roboto",sans-serif;
     color:black
 }
+
