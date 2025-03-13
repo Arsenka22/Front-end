@@ -23,9 +23,9 @@
     margin: 190px 80px 52px 80px;
 }
 
-.info, .info2 {
+.title, .title2 {
     text-align: center;
-    font:400 36px/1 "Roboto",sans-serif;
+    font: 400 36px/1 "Roboto",sans-serif;
 }
 
 .features {
@@ -34,8 +34,8 @@
     margin: 70px 108px 0px 84px;
     display: flex;
     align-items: center;
-    justify-content:space-between;
-    flex-wrap:wrap; 
+    justify-content: space-between;
+    flex-wrap: wrap; 
 }
 
 .features__items {
@@ -50,32 +50,31 @@
 }
 
 .item__subtitle, .item__subtitle2 {
-     padding-left:35%;
-    font:700 30px/1 "Roboto",sans-serif;
+     padding-left: 35%;
+    font: 700 30px/1 "Roboto",sans-serif;
 }
 
-#item__subtitle21, #item__subtitle22, #item__subtitle26 {
-    padding-left:45%;
-    font:700 30px/1 "Roboto",sans-serif;
+#item__subtitle2_1, #item__subtitle2_2, #item__subtitle2_6 {
+    padding-left: 45%;
+    font: 700 30px/1 "Roboto",sans-serif;
 }
 
 .interviews__title, .interviews__title2 {
-    font:700 36px/1 "Roboto",sans-serif;
+    font: 700 36px/1 "Roboto",sans-serif;
     text-align: center;
 
 }
 
 .interviews {
     width: 1280px;
-    height:803.5px;
+    height: 803.5px;
     margin: 52px 80px 51.17px 80px;
 }
-
 
 .people {
     margin: 187px 108px 0px 8px;
     width: 1164px;
-    height:616.5px;
+    height: 616.5px;
     display: flex;
     justify-content: space-between;
     
@@ -83,11 +82,10 @@
 }
 
 .people__first {
-    width:287.88px;
+    width: 287.88px;
     margin: 0px 100px 0px 100.02px;
     &:nth-child(2){
-        margin-left:0px;
-        
+        margin-left: 0px; 
     }
     &:last-child{
         margin-left: 0px;
@@ -99,7 +97,7 @@
 }
 
 .people__quote {
-    width:266px;
+    width: 266px;
     
     margin: 0px 0px 40px 19.98px;
     font: 700 22px/1 "Roboto",sans-serif;
@@ -108,34 +106,34 @@
 
 .people__name {
     margin: 0px 81px 2px 80.98px;
-    width:126px;
-    font:400 19px/1 "Roboto",sans-serif;
+    width: 126px;
+    font: 400 19px/1 "Roboto",sans-serif;
 }
 
 #people__name2{
-    margin:34px 63px 1px 62px;
-    font:400 19px/1 "Roboto",sans-serif;
+    margin: 34px 63px 1px 62px;
+    font: 400 19px/1 "Roboto",sans-serif;
 }
 
 #people__name3 {
-    margin:34px 67px 1px 67px;
-    font:400 19px/1 "Roboto",sans-serif;
+    margin: 34px 67px 1px 67px;
+    font: 400 19px/1 "Roboto",sans-serif;
 }
 
 .people__country {
-    width:251px;
-    margin:0px 18px 44px 18.98px;
-    font:400 20px/1 "Roboto",sans-serif;
+    width: 251px;
+    margin: 0px 18px 44px 18.98px;
+    font: 400 20px/1 "Roboto",sans-serif;
 }
 
 #people__country2 {
-    margin:2px 71px 44px 70px;
-    font:400 20px/1 "Roboto",sans-serif;
+    margin: 2px 71px 44px 70px;
+    font: 400 20px/1 "Roboto",sans-serif;
 }
 
 #people__country3 {
-    margin:1px 37px 44px 37px;
-    font:400 20px/1 "Roboto",sans-serif;
+    margin: 1px 37px 44px 37px;
+    font: 400 20px/1 "Roboto",sans-serif;
 }
 .people__link {
     margin: 0px 107px;
