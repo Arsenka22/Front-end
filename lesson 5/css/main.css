@@ -96,5 +96,45 @@
     color: black;
     border: 2px solid #575756;
     font:400 14px/1 "Montserrat",sans-serif;
-    
+}
+
+.content2 {
+    width: 1309px;
+    height:464px;
+    margin: 100px 19px 15px 22px;
+}
+
+.content2__photo {
+    width:644.43px;
+    height:418px;
+    margin:46px 91.63px 0px 0px;
+}
+
+.block2{
+    width:572.94px;
+    height:464px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    float:right ;
+}
+
+.benefits__title {
+    margin: 0px 95.53px 30px 0px;
+    font:600 24px/1 "Montserrat",sans-serif;
+}
+
+.benefits {
+    width:572.93px;
+    height:83px;
+}
+
+.benefits__subtitle {
+    display: block;
+    margin:0px 75.53px 10px 0px;
+    font: 600 18px/1 "Montserrat",sans-serif;
+}
+
+.benefits__desc {
+    font:400 14px/1 "Montserrat",sans-serif;
 }
