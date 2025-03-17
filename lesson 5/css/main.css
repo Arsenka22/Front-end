@@ -30,9 +30,21 @@
     height: 469px;
     display: flex;
     justify-content: space-between;
+    gap:20.14px;
 
 }
 
+.content::after {
+    content: "";
+    width:85.15px;
+    height:80.35px;
+    position: absolute;
+    background-color: #0E27730D;
+    bottom:480px;
+    
+    
+
+}
 .block1__title {
     font:600 24px/1 "Montserrat",sans-serif;
 }
@@ -100,22 +112,6 @@
     font:400 14px/1 "Montserrat",sans-serif;
 }
 
-.rectangle {
-    width:85.15px;
-    height: 80.35px;
-    position: absolute;
-    bottom:415px;
-}
-
-.vector {
-    width:88.57px;
-    height:126.36px;
-    position:absolute;
-    left:1220px;
-    bottom:840px;
-  
-
-}
 .content2 {
     width: 1309px;
     height:464px;
@@ -136,11 +132,13 @@
     justify-content: space-between;
     float:right ;
     gap:30px;
+    padding-bottom: 15px;
     
 }
 
 .benefits__title {
-    margin: 0px 95.53px 30px 0px;
+    
+    margin-right: 95.53px;
     font:600 24px/1 "Montserrat",sans-serif;
 }
 
