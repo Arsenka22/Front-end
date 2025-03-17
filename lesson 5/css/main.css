@@ -14,7 +14,7 @@
 
 @font-face {
     font-family:"Montserrat";
-    src: url(../fonts/Montserrat-Regular.ttf) format(ttf);
+    src: url('../fonts/static/Montserrat-Regular.ttf') format(ttf);
     font-weight: 400;
     font-size: 14px;
 }
@@ -58,6 +58,7 @@
     width: 125.9px;
     height: 29.45px;
     margin:0px 100.3px 30px 85.94px;
+
 }
 
 .cards__title {
@@ -70,7 +71,8 @@
 }
 
 .cards__desc {
-    font:400 14px/20px "Montserrat",sans-serif;
+    width:572.94px;
+    font:400 14px/1 "Montserrat",sans-serif;
     margin: 0px 7.21px;
 }
 .cards__link {
@@ -98,6 +100,22 @@
     font:400 14px/1 "Montserrat",sans-serif;
 }
 
+.rectangle {
+    width:85.15px;
+    height: 80.35px;
+    position: absolute;
+    bottom:415px;
+}
+
+.vector {
+    width:88.57px;
+    height:126.36px;
+    position:absolute;
+    left:1220px;
+    bottom:840px;
+  
+
+}
 .content2 {
     width: 1309px;
     height:464px;
@@ -117,6 +135,8 @@
     flex-direction: column;
     justify-content: space-between;
     float:right ;
+    gap:30px;
+    
 }
 
 .benefits__title {
@@ -136,5 +156,6 @@
 }
 
 .benefits__desc {
-    font:400 14px/1 "Montserrat",sans-serif;
+    font:400 15px/1 "Montserrat",sans-serif;
+    
 }
