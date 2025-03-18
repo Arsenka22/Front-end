@@ -142,6 +142,27 @@
     font:600 24px/1 "Montserrat",sans-serif;
 }
 
+.content::after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    border-bottom: 125px solid rgba(196, 196, 196, 0.325);
+    border-left: 100px solid transparent;
+    bottom: 390px;
+    transform: rotate(15deg);
+}
+
+.content::before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    border: 70px solid transparent;
+    border-left: 99px solid rgba(196, 196, 196, 0.325);
+    bottom: 865px;
+    left: 1170px;
+    transform: rotate(272deg);
+}
+
 .benefits {
     width:572.93px;
     height:83px;
