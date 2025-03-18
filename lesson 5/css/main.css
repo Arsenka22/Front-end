@@ -42,6 +42,7 @@
     border-left: 100px solid transparent;
     bottom: 390px;
     transform: rotate(15deg);
+
 }
 
 .content::before {
@@ -170,4 +171,4 @@
 
     font: 400 15px/1 "Montserrat", sans-serif;
 
-} 
+}
