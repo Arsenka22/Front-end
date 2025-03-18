@@ -6,14 +6,14 @@
 }
 
 @font-face {
-    font-family:"Montserrat";
+    font-family: "Montserrat";
     src: url("../fonts/Montserrat-SemiBold.ttf") format(ttf);
-    font-weight:600;
+    font-weight: 600;
     font-size: 24px;
 }
 
 @font-face {
-    font-family:"Montserrat";
+    font-family: "Montserrat";
     src: url('../fonts/static/Montserrat-Regular.ttf') format(ttf);
     font-weight: 400;
     font-size: 14px;
@@ -22,7 +22,7 @@
 .content {
     width: 1309px;
     height: 569px;
-    margin:47px 19px 100px 22px;
+    margin: 47px 19px 100px 22px;
 }
 
 .block1 {
@@ -30,27 +30,43 @@
     height: 469px;
     display: flex;
     justify-content: space-between;
-    gap:20.14px;
+    gap: 20.14px;
 
 }
 
 .content::after {
     content: "";
-    width:85.15px;
-    height:80.35px;
     position: absolute;
-    background-color: #0E27730D;
-    bottom:480px;
-    
-    
+    display: inline-block;
+    border-bottom: 125px solid rgba(196, 196, 196, 0.325);
+    border-left: 100px solid transparent;
+    bottom: 390px;
+    transform: rotate(15deg);
+}
 
+.content::before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    border: 70px solid transparent;
+    border-left: 99px solid rgba(196, 196, 196, 0.325);
+    bottom: 865px;
+    left: 1170px;
+    transform: rotate(272deg);
 }
+
+
+
+
+
+
 .block1__title {
-    font:600 24px/1 "Montserrat",sans-serif;
+    font: 600 24px/1 "Montserrat", sans-serif;
 }
+
 .block1__cards {
     width: 312.15px;
-    height:420px;
+    height: 420px;
     margin-top: 20px;
 }
 
@@ -61,7 +77,7 @@
 .cards__date {
     display: block;
     padding: 27.77px 30.21px 20px 214.47px;
-    font:600 12px/1 "Montserrat",sans-serif;
+    font: 600 12px/1 "Montserrat", sans-serif;
     color: #BE1736;
 }
 
@@ -69,32 +85,33 @@
 .cards__photo {
     width: 125.9px;
     height: 29.45px;
-    margin:0px 100.3px 30px 85.94px;
+    margin: 0px 100.3px 30px 85.94px;
 
 }
 
 .cards__title {
-    width:213.47px;
-    height:40px;
-    margin:0px 56.52px 30px 42.16px;
+    width: 213.47px;
+    height: 40px;
+    margin: 0px 56.52px 30px 42.16px;
     text-align: center;
-    font:600 16px/1 "Montserrat",sans-serif;
-   
+    font: 600 16px/1 "Montserrat", sans-serif;
+
 }
 
 .cards__desc {
-    width:572.94px;
-    font:400 14px/1 "Montserrat",sans-serif;
+    width: 572.94px;
+    font: 400 14px/1 "Montserrat", sans-serif;
     margin: 0px 7.21px;
 }
+
 .cards__link {
-    width:261.8px;
+    width: 261.8px;
     text-decoration: none;
     color: black;
-    padding:16.5px 88.11px;
+    padding: 16.5px 88.11px;
     display: block;
     margin: 30px 28.33px 27.77px 22.02px;
-    font:400 14px/1 "Montserrat",sans-serif; 
+    font: 400 14px/1 "Montserrat", sans-serif;
 }
 
 .cards__link:hover {
@@ -103,57 +120,57 @@
 
 .content__link {
     display: block;
-    width:261.8px;
-    padding:16.5px 96.66px;
-    margin:50px 542.6px 100px 545.6px;
+    width: 261.8px;
+    padding: 16.5px 96.66px;
+    margin: 50px 542.6px 100px 545.6px;
     text-decoration: none;
     color: black;
     border: 2px solid #575756;
-    font:400 14px/1 "Montserrat",sans-serif;
+    font: 400 14px/1 "Montserrat", sans-serif;
 }
 
 .content2 {
     width: 1309px;
-    height:464px;
+    height: 464px;
     margin: 100px 19px 15px 22px;
 }
 
 .content2__photo {
-    width:644.43px;
-    height:418px;
-    margin:46px 91.63px 0px 0px;
+    width: 644.43px;
+    height: 418px;
+    margin: 46px 91.63px 0px 0px;
 }
 
-.block2{
-    width:572.94px;
-    height:464px;
+.block2 {
+    width: 572.94px;
+    height: 464px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    float:right ;
-    gap:30px;
+    float: right;
+    gap: 30px;
     padding-bottom: 15px;
-    
+
 }
 
 .benefits__title {
-    
+
     margin-right: 95.53px;
-    font:600 24px/1 "Montserrat",sans-serif;
+    font: 600 24px/1 "Montserrat", sans-serif;
 }
 
 .benefits {
-    width:572.93px;
-    height:83px;
+    width: 572.93px;
+    height: 83px;
 }
 
 .benefits__subtitle {
     display: block;
-    margin:0px 75.53px 10px 0px;
-    font: 600 18px/1 "Montserrat",sans-serif;
+    margin: 0px 75.53px 10px 0px;
+    font: 600 18px/1 "Montserrat", sans-serif;
 }
 
 .benefits__desc {
-    font:400 15px/1 "Montserrat",sans-serif;
-    
+    font: 400 15px/1 "Montserrat", sans-serif;
+
 }
