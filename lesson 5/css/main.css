@@ -36,6 +36,7 @@
 
 .content::after {
     content: "";
+<<<<<<< HEAD
     position: absolute;
     display: inline-block;
     border-bottom: 125px solid rgba(196, 196, 196, 0.325);
@@ -57,6 +58,37 @@
 
 .investitions__title {
     font: 600 24px/1 "Montserrat", sans-serif;
+=======
+    position: absolute;
+    display: inline-block;
+    border-bottom: 125px solid rgba(196, 196, 196, 0.325);
+    border-left: 100px solid transparent;
+    bottom: 390px;
+    transform: rotate(15deg);
+}
+
+.content::before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    border: 70px solid transparent;
+    border-left: 99px solid rgba(196, 196, 196, 0.325);
+    bottom: 865px;
+    left: 1170px;
+    transform: rotate(272deg);
+}
+.content::after {
+    content: "";
+    width:85.15px;
+    height:80.35px;
+    position: absolute;
+    background-color: #0E27730D;
+    bottom:480px;
+}
+
+.block1__title {
+    font:600 24px/1 "Montserrat",sans-serif;
+>>>>>>> 9ce9825849fa99588309db44fc9b5eacded87c0b
 }
 
 .investitions__cards {
@@ -166,6 +198,12 @@
 }
 
 .benefits__desc {
+<<<<<<< HEAD
     font: 400 15px/1 "Montserrat", sans-serif;
 
 }
+=======
+    font:400 15px/1 "Montserrat",sans-serif;
+    
+}
+>>>>>>> 9ce9825849fa99588309db44fc9b5eacded87c0b
