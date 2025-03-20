@@ -28,7 +28,7 @@ a {
 }
 
 body {
-    background-color: #36b188;
+    background-color: #F2F8F6;
 }
 
 .firstlay {
@@ -65,6 +65,7 @@ body {
     max-width: 411px;
     margin:115px 180px 19px 689px;
     font: 500 50px/1 var(--font);
+    text-shadow:0px 4px 4px #00000040;
 }
 
 .subtitle {
@@ -96,4 +97,5 @@ body {
     font:500 20px/1.2 var(--font);
     text-transform: uppercase;
     display: block;
+
 }
