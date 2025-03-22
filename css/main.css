@@ -66,6 +66,7 @@ body {
     margin:115px 180px 19px 689px;
     font: 500 50px/1 var(--font);
     text-shadow:0px 4px 4px #00000040;
+    color: #26292E;
 }
 
 .content__subtitle {
@@ -76,20 +77,20 @@ body {
 }
 
 .content__list {
-    height:400px;
     font: 500 20px/1.4 var(--font);
     list-style-image: url("../img/Group\ \(1\).png");
-    &:nth-of-type(1) {
-        margin: 0px 100px 0px 704px;
-    }
-
-    
+    color: #26292E;
 }
 
+.list__item {
+    margin: 13px 100px 13px 704px;
+  
+   
+}
 .content__link {
     width: 211px;
     height: 57.67px;
-    margin: 50px 385px 57.33px 684px;
+    margin: 40px 385px 57.33px 684px;
     background-color:#408858;
     color: #FFF;
     padding: 17px 42.45px 17.6px 43px;
