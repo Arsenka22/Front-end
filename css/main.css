@@ -76,21 +76,20 @@ body {
 }
 
 .content__list {
+    height:400px;
     font: 500 20px/1.4 var(--font);
     list-style-image: url("../img/Group\ \(1\).png");
     &:nth-of-type(1) {
-        margin: 0px 100px 13px 704px;
+        margin: 0px 100px 0px 704px;
     }
 
-    &:nth-of-type(2) {
-        margin: 0px 123px 704px 42px;
-    }
+    
 }
 
 .content__link {
     width: 211px;
     height: 57.67px;
-    margin: 59px 385px 57.33px 684px;
+    margin: 50px 385px 57.33px 684px;
     background-color:#408858;
     color: #FFF;
     padding: 17px 42.45px 17.6px 43px;
