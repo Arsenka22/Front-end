@@ -5,10 +5,11 @@
     box-sizing: border-box;
 }
 
-:root{
-    --font:"Open Sans",sans-serif;
-    
+:root {
+    --font: "Open Sans", sans-serif;
+
 }
+
 @font-face {
     font-family: "Open Sans";
     src: url("../fonts/static/OpenSans-Regular.ttf") format(ttf);
@@ -35,9 +36,10 @@
     text-align: center;
     padding-bottom: 30px;
     margin: 100px 397.5px 60px 397.5px;
-    font:700 40px/1.4 var(--font);
-    color:#333333;
+    font: 700 40px/1.4 var(--font);
+    color: #333333;
 }
+
 
 .people {
     width: 1017px;
@@ -46,27 +48,124 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap:120px;
-   
+    gap: 120px;
 
-   
 }
+
+.photo,.photo2,.photo3,.photo4,.photo5 {
+    width: 220px;
+    height: 224px;
+    background-color: #E1E8EE;
+    border-radius: 200px;
+}
+
+.photo {
+
+    background-image: url('../img/pers2.png');
+    background-position: 26px 33px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.photo2 {
+
+    background-image: url("../img/1dcc318f7bf9c664b3b36b42328d0fb0.png");
+    background-position: -55px 35px;
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+
+.photo3 {
+
+    background-image: url("../img/pers3.png");
+    background-position: -4px 32px;
+    background-size: 115%;
+    background-repeat: no-repeat;
+}
+
+.photo4 {
+
+    background-image: url("../img/pers4.png");
+    background-position: -40px 10px;
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+
+.photo5 {
+
+    background-image: url("../img/pers5.png");
+    background-position: -30px 15px;
+    background-size: 130%;
+    background-repeat: no-repeat;
+}
+
 
 .people__card {
     max-width: 235px;
     max-height: 330px;
-    display:inline-block;
+    display: inline-block;
+    &:nth-child(2) {
+        &:hover {
+            background-image: url("../img/Rectangle\ 3815.png");
+            background-position: center;
+            background-size: cover;
+        }
+    }
+
+    &:nth-child(3) {
+        &:hover {
+            background-image: url("../img/Rectangle\ 3815\ \(1\).png");
+            background-position: center;
+            background-size: cover;
+        }
+    }
+
+    &:nth-child(4) {
+        &:hover {
+            background-image: url("../img/Rectangle\ 3815\ \(2\).png");
+            background-position: center;
+            background-size: cover;
+        }
+    }
+
+    &:nth-child(5) {
+        &:hover {
+            background-image: url("../img/Rectangle\ 3815\ \(3\).png");
+            background-position: center;
+            background-size: cover;
+        }
+    }
+
+    &:hover {
+        border-radius: 10px;
+        transform: scale(1.1);
+        transition: all 0.2s ;
+        background-image: linear-gradient(#00277B, #0553B1);
+        background-image: url("../img/Rectangle\ 3815.jpg");
+        background-position: center;
+        background-size: cover;
+
+        .photo,.photo2,.photo3,.photo4,.photo5 {
+            border: 2px solid #fff;
+        }
+
+        .people__name,.people__rank {
+            color: #fff;
+        }
+    }
 }
 
 .people__name {
     max-width: 235px;
-    font:700 24px/1.4 var(--font);
-    color:#194F94;
-
+    font: 700 24px/1.4 var(--font);
+    color: #194F94;
+    display: block;
+    margin-top: 20px;
 }
 
 .people__rank {
     max-width: 215px;
     font: 400 17px/1.5 var(--font);
-    color:#5F5F5F;
+    color: #5F5F5F;
+
 }
