@@ -48,111 +48,114 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 120px;
+    gap: 104px 169px;
 
 }
 
-.photo,.photo2,.photo3,.photo4,.photo5 {
+.people__photo {
     width: 220px;
     height: 224px;
-    background-color: #E1E8EE;
     border-radius: 200px;
+    background-color: #E1E8EE;
+    position: relative;
+
 }
 
-.photo {
+.people__card:hover .linkedin__logo {
+    display: none;
+}
 
-    background-image: url('../img/pers2.png');
-    background-position: 26px 33px;
+.people__card:hover .arrow__logo {
+    display: block;
+}
+
+.arrow__logo {
+    width: 50px;
+    height: 50px;
+    background-image: url("../img/Arrow.svg");
+    position: absolute;
+    right: 16px;
+    bottom: 15px;
+    display: none;
+}
+
+.linkedin__logo {
+    position: absolute;
+
+    width: 50px;
+    height: 50px;
+    right: 16px;
+    bottom: 15px;
+}
+
+.people__card:nth-child(1) .people__photo {
+    background: -70px 26px/162% url('../img/pers1.png') no-repeat;
+    background-color: #E1E8EE;
+}
+
+.people__card:nth-child(2) .people__photo {
+    background: 20px 20px/110% url('../img/pers2.png') no-repeat;
+    background-color: #E1E8EE;
+}
+
+.people__card:nth-child(3) .people__photo {
+    background: -10px 20px/130% url('../img/pers3.png') no-repeat;
+    background-color: #E1E8EE;
+}
+
+.people__card:nth-child(4) .people__photo {
+    background: -50px 0px/160% url('../img/pers4.png') no-repeat;
+    background-color: #E1E8EE;
+}
+
+.people__card:nth-child(5) .people__photo {
+    background: -20px 24px/120% url('../img/pers5.png') no-repeat;
+    background-color: #E1E8EE;
+}
+
+.people__card:nth-child(1):hover {
+    background-image: url('../img/back1.jpg');
+    background-position: center;
+}
+
+.people__card:nth-child(2):hover {
+    background-image: url('../img/back2.png');
+    background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
 }
 
-.photo2 {
-
-    background-image: url("../img/1dcc318f7bf9c664b3b36b42328d0fb0.png");
-    background-position: -55px 35px;
-    background-size: 150%;
-    background-repeat: no-repeat;
+.people__card:nth-child(3):hover {
+    background-position: center;
+    background-size: cover;
+    background-image: url('../img/back3.png');
 }
 
-.photo3 {
-
-    background-image: url("../img/pers3.png");
-    background-position: -4px 32px;
-    background-size: 115%;
-    background-repeat: no-repeat;
+.people__card:nth-child(4):hover {
+    background-position: center;
+    background-size: cover;
+    background-image: url('../img/back4.png');
 }
 
-.photo4 {
-
-    background-image: url("../img/pers4.png");
-    background-position: -40px 10px;
-    background-size: 150%;
-    background-repeat: no-repeat;
+.people__card:nth-child(5):hover {
+    background-position: center;
+    background-size: cover;
+    background-image: url('../img/back5.png');
 }
 
-.photo5 {
-
-    background-image: url("../img/pers5.png");
-    background-position: -30px 15px;
-    background-size: 130%;
-    background-repeat: no-repeat;
+.people__card:hover .people__photo {
+    background-color: transparent;
+    border-radius: 200px;
+    border: 2px solid #fff;
 }
 
-
-.people__card {
-    max-width: 235px;
-    max-height: 330px;
-    display: inline-block;
-    &:nth-child(2) {
-        &:hover {
-            background-image: url("../img/Rectangle\ 3815.png");
-            background-position: center;
-            background-size: cover;
-        }
+.people__card:hover {
+    background-image: linear-gradient(#00277B, #0553B1);
+    transform: scale(1.1);
+    .people__name,
+    .people__rank {
+        color: #fff;
     }
 
-    &:nth-child(3) {
-        &:hover {
-            background-image: url("../img/Rectangle\ 3815\ \(1\).png");
-            background-position: center;
-            background-size: cover;
-        }
-    }
-
-    &:nth-child(4) {
-        &:hover {
-            background-image: url("../img/Rectangle\ 3815\ \(2\).png");
-            background-position: center;
-            background-size: cover;
-        }
-    }
-
-    &:nth-child(5) {
-        &:hover {
-            background-image: url("../img/Rectangle\ 3815\ \(3\).png");
-            background-position: center;
-            background-size: cover;
-        }
-    }
-
-    &:hover {
-        border-radius: 10px;
-        transform: scale(1.1);
-        transition: all 0.2s ;
-        background-image: linear-gradient(#00277B, #0553B1);
-        background-image: url("../img/Rectangle\ 3815.jpg");
-        background-position: center;
-        background-size: cover;
-
-        .photo,.photo2,.photo3,.photo4,.photo5 {
-            border: 2px solid #fff;
-        }
-
-        .people__name,.people__rank {
-            color: #fff;
-        }
-    }
 }
 
 .people__name {
