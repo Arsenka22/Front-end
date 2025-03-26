@@ -33,12 +33,25 @@
 
 .title {
     width: 805px;
+    position: relative;
     text-align: center;
     padding-bottom: 30px;
     margin: 100px 397.5px 60px 397.5px;
     font: 700 40px/1.4 var(--font);
     color: #333333;
+
+    &::before {
+        content: "";
+        width: 100px;
+        height: 4px;
+        bottom: 1px;
+        margin-left: 60px;
+        position: absolute;
+        background-color: #2B9AD6;
+    }
+
 }
+
 
 
 .people {
@@ -89,8 +102,9 @@
 }
 
 .people__card:nth-child(1) .people__photo {
-    background: -70px 26px/162% url('../img/pers1.png') no-repeat;
+    background: -70px 23px/162% url('../img/pers1.png') no-repeat;
     background-color: #E1E8EE;
+    width: 225px;
 }
 
 .people__card:nth-child(2) .people__photo {
@@ -151,6 +165,7 @@
 .people__card:hover {
     background-image: linear-gradient(#00277B, #0553B1);
     transform: scale(1.1);
+
     .people__name,
     .people__rank {
         color: #fff;
