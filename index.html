@@ -1,77 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
     <title>Document</title>
 </head>
-<body>
-<main>
-<div class="info">Some of the features that</div>
-<div class="info2"> make Thalby guides unique</div>
-<section class="features">
-<div class="features__items">
-    <img src="img/Rectangle (1).svg">
-    <p>Written by</p>
-    <p>locals</p></div>
+    <section class="forma">
+    <h1 class="title">Форма заявки на работу в зоопарке</h1>
+    <p class="desc"><em>Пожалуйста,заполніте форму. Обязательные поля помечены *</em></p>
+    
+    <section class="contact">
+        <fieldset class="contact__info">
+            <legend class="info__title">Контактная информация</legend>
+            <form class="form">
+                <div class="form__item">
+                    <label for="name">Имя</label>
+                    <input type="text" name="username" id="username">
+                </div>
+                <div class="form__item">
+                    <label for="phone-number">Телефон</label>
+                    <input type="tel" name="phone-number" id="phone-number">
+                </div>
+                <div class="form__item">
+                    <label for="user-email">Email</label>
+                    <input type="email" name="user-email" id="user-email">
+                </div>
 
-<div  class="features__items">
-    <img src="img/Rectangle (3).svg">
-    <p>Packed with </p>
-    <p>insight</p></div>
+            </form>
 
-<div class="features__items">
-    <img src="img/Rectangle (4).svg">
-    <p>Interviews with</p>
-    <p>diverse voices</p></div>
+        </fieldset>
 
-<div  class="features__items">
-    <img src="img/Rectangle (5).svg">
-    <p>Key facts and</p>
-    <p>etiquette tips</p></div>
-<div  class="features__items">
-    <img src="img/Rectangle (6).svg">
-    <p>A concise</p>
-    <p> 1-hour read</p></div>
-<div  class="features__items">
-    <img src="img/Rectangle (7).svg">
-    <p>Instant</p>
-    <p>digital access</p></div>
-</section>
-<section class="person">
-    <div class="person__interview1">
-        Each Thalby guide includes interviews with
-    </div>
-    <div class="person__interview2">
-        a range of fascinating voices, such as
-    </div>
-    <div class="person__photos">
-     <div class="person__one">
-        <img src="img/Rectangle.svg" alt=""> 
-        <blockquote><b>"I don’t like things to be conventional. If it’s too nice, I bring disorder."</b></blockquote>  
-       <span>Camille Muller,</span> 
-       <span> Landscape Designer, France</span>
-        <a href="#" class="person__discover">Discover</a></div>
-        <div class="person__two">
-            <img src="img/Rectangle2.svg" alt=""> 
-            <blockquote><b>"Magic is not magic in the sense that I can just wish for anything."</b></blockquote>  
-           <span>Sonia Kowalewski,</span> 
-           <span> Witch, Germany</span>
-            <a href="#" class="person__discover">Discover</a>
-        </div>
-        <div class="person__three">
-            <img src="img/Rectangle3.svg" alt=""> 
-            <blockquote><b>"I was eight years old when I entered my first competition. I won it."</b></blockquote>  
-           <span>Lilly Stoephasius,</span> 
-           <span> Skateboarder, Germany</span>
-            <a href="#" class="person__discover">Discover</a></div>
-    </div> 
-</section>
+    </section>
 
-</main>
-<footer>
+    <section class="personal">
+        <fieldset class="personal__info">
+            <legend class="personal__title">Персональная информация</legend>
+            <form class="form">
+                <div class="form__item">
+                    <label for="user-age">Возраст</label>
+                    <input type="number" name="user-age" id="user-age">
+                </div>
+                <div class="form__item">
+                    <label for="gender">Пол</label>
+                    <select name="user-gender" id="user-gender">
+                        <option value="Man">Мужчина</option>
+                        <option value="Women">Женщина</option>
+                    </select>
+                </div>
+                <div class="form__item">
+                    <label for="user-traits">Перечислите<br>личные<br> качества</label>
+                    <textarea name="user-traits" id="user-traits"></textarea>
 
-</footer>
+                </div>
+
+            </form>
+        </fieldset>
+    </section>
+
+    <section class="animal">
+        <fieldset class="fav-animal">
+            <legend class="animal__title">Выберите ваших любимых животных</legend>
+            <form class="form">
+                <div class="checkbox__group">
+                <div class="form__checkbox">
+                    <input type="checkbox" name="zebra" id="zebra">
+                    <label for="zebra">Зебра</label>
+                </div>
+                <div class="form__checkbox">
+                    <input type="checkbox" name="cat" id="cat">
+                    <label for="zebra">Кошак</label>
+                </div>
+                <div class="form__checkbox">
+                    <input type="checkbox" name="anaconda" id="anaconda">
+                    <label for="zebra">Анаконда</label>
+                </div>
+                <div class="form__checkbox">
+                    <input type="checkbox" name="human" id="human">
+                    <label for="zebra">Человек</label>
+                </div>
+                <div class="form__checkbox">
+                    <input type="checkbox" name="elephant" id="elephant">
+                    <label for="zebra">Слон</label>
+                </div>
+                <div class="form__checkbox">
+                    <input type="checkbox" name="antilope" id="antilope">
+                    <label for="zebra" id="antilope">Антилопа</label>
+                </div>
+                <div class="form__checkbox">
+                    <input type="checkbox" name="pigeon" id="pigeon">
+                    <label for="zebra">Голубь</label>
+                </div>
+                <div class="form__checkbox">
+                    <input type="checkbox" name="crab" id="crab">
+                    <label for="zebra">Краб</label>
+                </div>
+            </div>
+                
+            </form>
+        </fieldset>
+    </section>
+    <input type="submit" name="send" id="submit" value="Отправить информацию">
+    </section>
+
+    
+
 </body>
+
 </html>
