@@ -19,8 +19,12 @@
 
 .form__item {
     display: flex;
-    gap: 50px;
+    justify-content: space-between;
     margin-bottom: 10px;
+    > label{
+        max-width: 90px;
+        width: 100%;
+    }
 }
 
 .personal__info .form__item:nth-last-child(1) {
@@ -31,19 +35,12 @@ input {
     width: 250px;
 }
 
-#username {
-    margin-left: 29px;
-}
-
-#user-email {
-    margin-left: 20px;
-}
 
 .personal__info {
     max-width: 520px;
     width: 100%;
     height: 210px;
-    padding: 15px 50px 10px 10px;
+    padding: 15px 0px 10px 10px;
 }
 
 #user-gender {
@@ -64,6 +61,10 @@ input {
     padding: 10px 20px 10px 10px;
 }
 
+.contact__info,.personal__info,.fav-animal {
+    margin-bottom: 15px;
+    padding-right: 120px;
+}
 
 .form__checkbox input {
     width: 10px;
@@ -76,16 +77,11 @@ input {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 15px 10px;
-
 }
 
 
 .form__checkbox {
     width: 90px;
-}
-
-.contact__info,.personal__info,.fav-animal {
-    margin-bottom: 15px;
 }
 
 #submit {
@@ -95,8 +91,13 @@ input {
 
 }
 
-.forma {
-max-width: 520px;
-width: 100%;
-margin: 0 auto;
+.content {
+    max-width: 520px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.required-field::after {
+    content: "*";
+    color: red;
 }

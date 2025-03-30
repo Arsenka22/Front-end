@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/main.css">
     <title>Document</title>
 </head>
-    <section class="forma">
+    <section class="content">
     <h1 class="title">Форма заявки на работу в зоопарке</h1>
     <p class="desc"><em>Пожалуйста,заполніте форму. Обязательные поля помечены *</em></p>
     
@@ -16,16 +16,16 @@
             <legend class="info__title">Контактная информация</legend>
             <form class="form">
                 <div class="form__item">
-                    <label for="name">Имя</label>
-                    <input type="text" name="username" id="username">
+                    <label for="name" class="required-field" >Имя</label>
+                    <input type="text" name="username" id="username" required>
                 </div>
                 <div class="form__item">
                     <label for="phone-number">Телефон</label>
                     <input type="tel" name="phone-number" id="phone-number">
                 </div>
                 <div class="form__item">
-                    <label for="user-email">Email</label>
-                    <input type="email" name="user-email" id="user-email">
+                    <label for="user-email" class="required-field">Email</label>
+                    <input type="email" name="user-email" id="user-email" required>
                 </div>
 
             </form>
@@ -39,8 +39,8 @@
             <legend class="personal__title">Персональная информация</legend>
             <form class="form">
                 <div class="form__item">
-                    <label for="user-age">Возраст</label>
-                    <input type="number" name="user-age" id="user-age">
+                    <label for="user-age" class="required-field">Возраст</label>
+                    <input type="number" name="user-age" id="userage" required>
                 </div>
                 <div class="form__item">
                     <label for="gender">Пол</label>
