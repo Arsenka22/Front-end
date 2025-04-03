@@ -352,4 +352,10 @@ a {
     .catalog {
         gap: 0px;
     }
+    
+    .button__price {
+        display: block;
+    }
+
+
 }
