@@ -14,32 +14,54 @@ li {
 }
 
 :root {
-    --font:"Avenir",sans-serif;
+    --font: "Avenir", sans-serif;
+    --font2: "Montserrat", sans-serif;
 }
 
 @font-face {
-    font-family:"Avenir";
+    font-family: "Avenir";
+    src: url("../fonts/AvenirNextCyr-Regular.ttf");
+    font-weight: 400;
+    font-size: 16px;
+}
+
+@font-face {
+    font-family: "Avenir";
     src: url('../fonts/AvenirNextCyr-Medium.ttf');
     font-weight: 500;
     font-size: 16px;
 }
 
 @font-face {
-    font-family:"Avenir";
+    font-family: "Avenir";
     src: url('../fonts/AvenirNextCyr-Demi.ttf');
     font-weight: 600;
     font-size: 20px;
 }
 
+@font-face {
+    font-family: "Montserrat";
+    src: url('../fonts/Montserrat-Medium.ttf');
+    font-weight: 500;
+    font-size: 16;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url('../fonts/ofont.ru_Montserrat.ttf');
+    font-weight: 600;
+    font-size: 36px;
+}
+
 .header {
     width: 100%;
-    background:linear-gradient(to right,#53269D,#6D31D0);
+    background: linear-gradient(to right, #53269D, #6D31D0);
     height: 120px;
     display: grid;
     grid-template-columns: auto 1fr auto;
-    column-gap: 111px ;
+    column-gap: 111px;
     align-items: center;
-    padding: 0 calc(50% - 600px );
+    padding: 0 calc(50% - 600px);
 }
 
 .menu__list {
@@ -51,7 +73,7 @@ li {
 
 .item__link {
     color: #FFF;
-    font:500 16px/1.4 var(--font);
+    font: 500 16px/1.4 var(--font);
     text-transform: uppercase;
 
 }
@@ -69,5 +91,153 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
-    font:600 20px/32px var(--font);
+    font: 600 20px/32px var(--font);
+}
+
+.main__content {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    /* Основной контент и кнопки */
+    align-items: center;
+    padding: 0 calc(50% - 560px);
+    gap: 0 680px;
+    width: 100%;
+    height: 800px;
+    background-image: url('../img/picture_home1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content__wrapper {
+    grid-column: 1;
+
+}
+
+.content__info {
+    padding-top: 130px;
+    max-width: 564px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.type__wrapper {
+    width: 564px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.info__type {
+    width: max-content;
+    font: 500 16px/1 var(--font2);
+    padding: 0 5px;
+    text-transform: uppercase;
+    color: #FFDB80;
+    background-color: #6D31D080;
+    opacity: 0.7;
+    border-radius: 10px;
+}
+
+.divider {
+    color: #fff;
+    width: 2px;
+}
+
+.info__title {
+    font: 600 36px/40px var(--font2);
+    color: #fff;
+}
+
+.title__desc {
+    font: 600 20px/32px var(--font2);
+    color: #FFF;
+}
+
+.info__desc {
+    font: 400 16px/24px var(--font);
+    color: #fff;
+}
+
+.info__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 48px;
+    background: linear-gradient(to right, #FFEB80, #FDBFA3);
+    color: #6D31D0;
+    font: 600 20px/32px var(--font2);
+    border-radius: 88.17px;
+}
+
+input {
+    width: 10px;
+}
+
+.cities {
+    margin-top: 78px;
+    max-width: 700px;
+    width: 100%;
+}
+
+.cities__title {
+    font: 600 20px/32px var(--font2);
+    color: #fff;
+}
+
+.cities__cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 0 40px;
+    margin-top: 16px;
+}
+
+.cards__item {
+    width: 144px;
+    height: 180px;
+    border-radius: 12px;
+    padding: 10px 7.5px 15px 7.5px;
+    background-color: #fff;
+    font: 600 20px/32px var(--font2);
+    color: #828CDE;
+}
+
+.cards__photo {
+    width: 129px;
+    height: 123px;
+}
+
+.cards__country {
+    width: 143px;
+    height: 22px;
+    margin-top: 10px;
+}
+
+.main__buttons {
+    position: absolute;
+    right: clamp(20px, 5%, 61px);
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-height: 100%;
+    overflow: visible;
+    z-index: 10;
+}
+
+.buttons__item {
+    width: 12px;
+    height: 12px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    &:focus {
+        background-color: #fff;
+        transform: scale(1.7);
+    }
 }
