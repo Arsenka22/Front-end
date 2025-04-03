@@ -12,3 +12,62 @@ a {
 li {
     list-style: none;
 }
+
+:root {
+    --font:"Avenir",sans-serif;
+}
+
+@font-face {
+    font-family:"Avenir";
+    src: url('../fonts/AvenirNextCyr-Medium.ttf');
+    font-weight: 500;
+    font-size: 16px;
+}
+
+@font-face {
+    font-family:"Avenir";
+    src: url('../fonts/AvenirNextCyr-Demi.ttf');
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.header {
+    width: 100%;
+    background:linear-gradient(to right,#53269D,#6D31D0);
+    height: 120px;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    column-gap: 111px ;
+    align-items: center;
+    padding: 0 calc(50% - 600px );
+}
+
+.menu__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0 14px;
+}
+
+.item__link {
+    color: #FFF;
+    font:500 16px/1.4 var(--font);
+    text-transform: uppercase;
+
+}
+
+.header__logo {
+    width: 120px;
+    height: 80px;
+}
+
+.header__link {
+    width: 180px;
+    height: 48px;
+    background-color: #FFDB80;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font:600 20px/32px var(--font);
+}
