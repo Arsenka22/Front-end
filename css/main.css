@@ -432,6 +432,143 @@ input {
   color:#434364;
 }
 
+.founder {
+  background: linear-gradient(#828CDE, #6D31D0);
+  padding:41px calc(50% - 590px) 31px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.founder__company {
+  max-width:480px;
+  width: 100%;
+  margin-top: 33px;
+}
+
+.founder__title {
+  font: 600 36px/40px var(--font);
+  color:#fff;
+  position: relative;
+  &::after {
+    content:"";
+    position: absolute;
+    width: 447px;
+    height: 4px;
+    background-color: #FDBFA3;
+    top:45px;
+    right: 154px;
+  }
+}
+
+.company__info {
+  font: 400 16px/24px var(--font);
+  color:#fff;
+  margin-top:24px;
+  &:nth-child(2){
+  margin-bottom: 54px;
+}
+}
+
+.founder__personal {
+  max-width: 580px;
+  width: 100%;
+  padding: 20px 46px 20px 20px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+  opacity: 0.8;
+  box-shadow: 0 14px 10px 0;
+
+}
+
+.personal__photo {
+  width: 280px;
+  height: 400px;
+}
+
+.personal__rank {
+  font: 600 20px/32px var(--font2);
+  color:#6D31D0;
+  margin: 44px 134px 15px 20px;
+  display: block;
+}
+
+.personal__name {
+  font: 400 16px/24px var(--font);
+  margin: 0 0 17px 0;
+  display: block;
+}
+
+.contact__link {
+  width:147px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#FFDB80;
+  border-radius: 24.47px;
+  font: 600 18px/1.2 var(--font2);
+}
+
+.personal__wrapper {
+  padding-left: 33px;
+}
+
+.approach {
+  background:linear-gradient(#FEFC9E,#FDBFA3);
+  padding: 80px calc(50% - 590px);
+  display: flex;
+  flex-direction: column;
+  gap:0 60px;
+
+}
+
+.approach__title {
+  font: 600 36px/40px var(--font);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.approach__strategy {
+  max-width: 1180px;
+  width: 100%;
+  display:flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap:20px;
+  margin-top: 60px;
+}
+
+.strategy__item {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:24px;
+}
+
+.strategy__photo {
+  width: 120px;
+  height: 120px;
+}
+
+.strategy__title {
+  font: 600 20px/32px var(--font2);
+  color:#6D31D0;
+  text-align: center;
+}
+
+.strategy__desc {
+  font: 400 16px/24px var(--font);
+  letter-spacing: 0.5px;
+  color:#434364;
+  text-align: center;
+
+}
+
+
 
 
 
