@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/main.css">
-  <title>PAM Consulting</title>
+  <title>Document</title>
 </head>
 
 <body>
@@ -14,25 +14,25 @@
     <nav class="menu">
       <ul class="menu__list">
         <li class="list__item">
-          <a href="#" class="item__link">Home</a>
+          <a href="#" class="item__link" title="HOME">Home</a>
         </li>
         <li class="list__item">
-          <a href="#" class="item__link">AbouT us</a>
+          <a href="#" class="item__link" title="ABOUT US">About us</a>
         <li class="list__item">
-          <a href="#" class="item__link">Services</a>
+          <a href="#" class="item__link" title="SERVICES">Services</a>
         </li>
         <li class="list__item">
-          <a href="#" class="item__link">Invest in cyprus</a>
+          <a href="#" class="item__link" title="INVEST IN CYPRUS">Invest in Cyprus</a>
         </li>
         <li class="list__item">
-          <a href="#" class="item__link">migration</a>
+          <a href="#" class="item__link" title="MIGRATION">migration</a>
         </li>
         <li class="list__item">
-          <a href="#" class="item__link">Contact us</a>
+          <a href="#" class="item__link" title="CONTACT US">Contact us</a>
         </li>
       </ul>
     </nav>
-    <a href="#" class="header__link">Get in touch</a>
+    <a href="#" class="header__link" title="Get in touch">Get in touch</a>
     <button type="button" class="menu__btn"></button>
   </header>
 
@@ -57,25 +57,25 @@
             stability of being in the EU offers entrepreneurs the abilities they need
             to thrive.</p>
 
-          <a href="#" class="info__link">Find Out More</a>
+          <a href="#" class="info__link" title="Find Out More">Find Out More</a>
         </div>
         <div class="cities">
           <span class="cities__title">Most popular cities</span>
           <div class="cities__cards">
-            <div class="cards__item">
+            <div class="cards__item" id="nicosia">
               <img class="cards__photo" src="img/nicosia.png" alt="Nicosia">
               <span class="cards__country">Nicosia</span>
             </div>
-            <div class="cards__item">
-              <img class="cards__photo" src="img/limasol.png" alt="Limasol">
+            <div class="cards__item" id="limasol">
+              <img class="cards__photo" src="img/limasol.png" alt="Nicosia">
               <span class="cards__country">Limasol</span>
             </div>
-            <div class="cards__item">
-              <img class="cards__photo" src="img/paphos.png" alt="Paphos">
+            <div class="cards__item" id="paphos">
+              <img class="cards__photo" src="img/paphos.png" alt="Nicosia">
               <span class="cards__country">Paphos</span>
             </div>
-            <div class="cards__item">
-              <img class="cards__photo" src="img/larnaka.png" alt="Larnaka">
+            <div class="cards__item" id="larnaka">
+              <img class="cards__photo" src="img/larnaka.png" alt="Nicosia">
               <span class="cards__country">Larnaka</span>
             </div>
 
@@ -83,10 +83,10 @@
         </div>
       </div>
       <div class="button__wrapper">
-        <button type="button" class="buttons__item"></button>
-        <button type="button" class="buttons__item"></button>
-        <button type="button" class="buttons__item"></button>
-        <button type="button" class="buttons__item"></button>
+        <button type="button" class="buttons__item" onclick="fnicosia()"></button>
+        <button type="button" class="buttons__item" onclick="flimasol()"></button>
+        <button type="button" class="buttons__item" onclick="fpaphos()"></button>
+        <button type="button" class="buttons__item" onclick="flarnaka()"></button>
       </div>
     </section>
 
@@ -95,25 +95,25 @@
       <h2 class="services__title">Our Services</h2>
       <div class="services__items">
         <div class="items__card">
-          <img src="./img/servicesphoto.png" alt="family" class="items__photo">
+          <img src="./img/servicesphoto.png" alt="" class="items__photo">
           <span class="items__title">Family<br>relocation</span>
           <p class="items__desc">With strategic planning, we simplify the moving process so you and your
             family can feel safe and confident.</p>
-          <a href="#" class="info__link">Find Out More</a>
+          <a href="#" class="info__link" title="Find Out More">Find Out More</a>
         </div>
         <div class="items__card">
-          <img src="./img/servicesphoto2.png" alt="business" class="items__photo">
+          <img src="./img/servicesphoto2.png" alt="" class="items__photo">
           <span class="items__title">Business<br>Relocation</span>
           <p class="items__desc">We handle the responsibility of moving your business to Cyprus, so you can
             focus on your business goals..</p>
-          <a href="#" class="info__link">Find Out More</a>
+          <a href="#" class="info__link" title="Find Out More">Find Out More</a>
         </div>
         <div class="items__card">
-          <img src="./img/servicesphoto3.png" alt="investments" class="items__photo">
+          <img src="./img/servicesphoto3.png" alt="" class="items__photo">
           <span class="items__title">investments<br>plans</span>
           <p class="items__desc"> Discover the opportunity to further enhance your business ambitions, by
             choosing the optimal investment plan.</p>
-          <a href="#" class="info__link">Find Out More</a>
+          <a href="#" class="info__link" title="Find Out More">Find Out More</a>
         </div>
       </div>
     </section>
@@ -134,7 +134,7 @@
           place to settle. With
           extremely low crime rate, stunning sandy beaches, and awe-inspiring mountain views, Cyprus is the place to be!
         </p>
-        <a href="#" class="info__link">Find Out More</a>
+        <a href="#" class="info__link" title="Find Out More">Find Out More</a>
       </div>
       <div class="photo__wrapper">
         <img src="img/villa2.png" alt="villa" class="moving__photo">
@@ -187,11 +187,11 @@
       </div>
 
       <div class="founder__personal">
-        <img src="img/founder.png" alt="founder" class="personal__photo">
+        <img src="img/founder.png" alt="" class="personal__photo">
         <div class="personal__wrapper">
           <span class="personal__rank">FOUNDER</span>
           <span class="personal__name">Anastasia Papaharidemou</span>
-          <a href="#" class="contact__link">Contact</a>
+          <a href="#" class="contact__link" title="Contact">Contact</a>
         </div>
       </div>
     </section>
@@ -200,27 +200,27 @@
       <h5 class="approach__title">How we make it happen</h5>
       <div class="approach__strategy">
         <div class="strategy__item">
-          <img src="img/approach1.png" alt="listen" class="strategy__photo">
+          <img src="img/approach1.png" alt="progressive tax system" class="strategy__photo">
           <span class="strategy__title">We listen</span>
           <p class="strategy__desc">Our most prominent purpose is to understand and identify with your needs so we can
             effectively find ways to provide solutions.</p>
         </div>
         <div class="strategy__item">
-          <img src="img/approach2.png" alt="strategize" class="strategy__photo">
+          <img src="img/approach2.png" alt="Stunning weather and climate" class="strategy__photo">
           <span class="strategy__title">We strategize</span>
           <p class="strategy__desc">According to your requirements, our team designs a thorough series of steps that
             will make the relocation process as smooth
             as possible.</p>
         </div>
         <div class="strategy__item">
-          <img src="img/approach3.png" alt="provide" class="strategy__photo">
+          <img src="img/approach3.png" alt="Blooming expat community" class="strategy__photo">
           <span class="strategy__title">We provide</span>
           <p class="strategy__desc">We implement our services that are based on efficient strategic planning that
             respond
             to your family’s and business’s goals and ambitions.</p>
         </div>
         <div class="strategy__item">
-          <img src="img/approach4.png" alt="manage" class="strategy__photo">
+          <img src="img/approach4.png" alt="Family-oriented values" class="strategy__photo">
           <span class="strategy__title">We manage</span>
           <p class="strategy__desc">Once you are settled, we make sure that everything is according to your expectations
             and your vision of the quality of our services.</p>
@@ -254,8 +254,9 @@
             <input type="checkbox" id="form__checkbox" name="checkbox">
             <p>
               By clicking "Submit button" you accept our
-              <a href="#" class="terms__link">Terms & Conditions</a> and have read our
-              <a href="#" class="terms__link">Privacy Policy</a> and <a href="#" class="terms__link">Disclaimer</a>
+              <a href="#" class="terms__link" title="Terms & Conditions">Terms & Conditions</a> and have read our
+              <a href="#" class="terms__link" title="Privacy Policy">Privacy Policy</a> and <a href="#"
+                class="terms__link" title="Disclaimer">Disclaimer</a>
             </p>
           </label>
           <input type="submit" class="form__submit" value="Submit">
@@ -267,33 +268,33 @@
     <section class="partners">
       <h6 class="partners__title">Our Partners</h6>
       <div class="partners__logo">
-        <a href="#" class="partner__link"><img src="img/partner1.png" alt="Partner1" class="logo__photo"></a>
-        <a href="#" class="partner__link"><img src="img/partner2.png" alt="Partner2" class="logo__photo"></a>
-        <a href="#" class="partner__link"><img src="img/partner3.png" alt="Partner3" class="logo__photo"></a>
-        <a href="#" class="partner__link"> <img src="img/partner4.png" alt="Partner4" class="logo__photo"></a>
-        <a href="#" class="partner__link"><img src="img/partner5.png" alt="Partner5" class="logo__photo"></a>
-        <a href="#" class="partner__link"><img src="img/partner6.png" alt="Partner6" class="logo__photo"></a>
+        <a href="#" class="partner__link"><img src="img/partner1.png" title="Partner1" class="logo__photo"></a>
+        <a href="#" class="partner__link"><img src="img/partner2.png" title="Partner2" class="logo__photo"></a>
+        <a href="#" class="partner__link"><img src="img/partner3.png" title="Partner3" class="logo__photo"></a>
+        <a href="#" class="partner__link"> <img src="img/partner4.png" title="Partner4" class="logo__photo"></a>
+        <a href="#" class="partner__link"><img src="img/partner5.png" title="Partner5" class="logo__photo"></a>
+        <a href="#" class="partner__link"><img src="img/partner6.png" title="Partner6" class="logo__photo"></a>
       </div>
     </section>
 
     <section class="faq">
       <h6 class="faq__title">Frequently Asked Questions</h6>
       <div class="faq__questions">
-        <div class="questions__item">
+        <div class="questions__item" id="questionbusiness">
           <img src="img/faq.png" alt="faq" class="faq__photo">
           <span class="questions__title">Question: How is the business environment in Cyprus?</span>
           <p class="questions__desc">Answer: Cyprus is considered to be one of the most business-oriented countries of
             the EU, offering business entrepreneurs a variety of opportunities to expand their corporate dreams and
             ambitions.</p>
         </div>
-        <div class="questions__item">
+        <div class="questions__item" id="questioncost">
           <img src="img/faq.png" alt="faq" class="faq__photo">
           <span class="questions__title">Question: What is the cost of living in Cyprus?</span>
           <p class="questions__desc">Answer: In comparison to other countries of the EU, the cost of living is
             relatively low. Of course, the cost of living varies from city to city. For example, this means that living
             in Paphos might be a bit cheaper than living in Limassol. </p>
         </div>
-        <div class="questions__item">
+        <div class="questions__item" id="questioncities">
           <img src="img/faq.png" alt="faq" class="faq__photo">
           <span class="questions__title">Question: What are the best cities in Cyprus for expats?</span>
           <p class="questions__desc">Answer: As Cyprus is among the most attractive destinations for people from
@@ -302,9 +303,9 @@
         </div>
       </div>
       <div class="faq__buttons">
-        <button type="button" class="buttons__item"></button>
-        <button type="button" class="buttons__item"></button>
-        <button type="button" class="buttons__item"></button>
+        <button type="button" class="buttons__item" id="butbottom1"></button>
+        <button type="button" class="buttons__item" id="butbottom2"></button>
+        <button type="button" class="buttons__item" id="butbottom3"></button>
         <button type="button" class="buttons__item"></button>
         <button type="button" class="buttons__item"></button>
         <button type="button" class="buttons__item"></button>
@@ -321,13 +322,16 @@
       <span class="footer__wrapper">
         <span class="footer__info">© 2022 PAM Consulting. All rights reserved</span>
         <span class="divider">|</span>
-        <span class="footer__info">Disclaimer</span>
+        <span class="footer__info"><a href="#" title="Disclaimer" class="footer__link">Disclaimer</a></span>
         <span class="divider">|</span>
-        <span class="footer__info">Privacy policy</span>
+        <span class="footer__info"><a href="#" title="Privacy policy" class="footer__link">Privacy policy</a></span>
       </span>
     </footer>
 
+
   </main>
+
+  <script src="./js/script.js"></script>
 </body>
 
 </html>
