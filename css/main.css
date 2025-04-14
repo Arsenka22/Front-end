@@ -1,6 +1,8 @@
-body {
+* {
   margin: 0;
-  font-family: Arial, sans-serif;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
 }
 
 .container {
@@ -17,7 +19,7 @@ body {
   max-width: 100%;
   margin: 30px auto;
   gap: 10px;
-  
+
 }
 
 .header {
